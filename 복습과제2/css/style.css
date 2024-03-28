@@ -1,0 +1,55 @@
+body, .mainContainer {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+.mainContainer, #todoInput, button {
+  border-radius: 4px;
+}
+.mainContainer {
+  background: #fff;
+  margin: 0 auto;
+  padding: 20px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.addContainer {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+button {
+  height: 40px; 
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 0 20px;
+}
+button:hover {
+  background-color: #4cae4c;
+}
+#todoInput {
+  height: 40px; 
+  width: 90%;
+  padding: 0 10px; 
+  border: 1px solid #ddd;
+}
+#todoList {
+  list-style: none;
+  padding: 0;
+}
+#todoList li {
+  height: 40px; 
+  padding: 0 10px; 
+  line-height: 40px;
+  border-bottom: 1px solid #ddd;
+}
+#todoList li:last-child {
+  border-bottom: none;
+}
